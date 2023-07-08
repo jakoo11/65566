@@ -52,7 +52,7 @@ async def fallen_st(_, message: Message):
                     link = result["link"]
                     published = result["publishedTime"]
                 searched_text = f"""
-‌‌‏≪⊶⌯━‌‌‏𖧊 ⦓ ᥉ρᎥժᥱᖇ ⦔ 𖧊━‌‌‏⌯⊷≫
+
 ⎊ **تتبع المعلومات ** 
 
 ⎊ **العنوان :** {title}
@@ -63,8 +63,7 @@ async def fallen_st(_, message: Message):
 ⎊ **الرابط :** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
 ⎊ **القناة :** [{channel}]({channellink})
 
-⎊ بحث بواسطة {BOT_NAME}
-‌‌‏≪⊶⌯━‌‌‏𖧊 ⦓ ᥉ρᎥժᥱᖇ ⦔ 𖧊━‌‌‏⌯⊷≫"""
+⎊ بحث بواسطة {BOT_NAME}"""
                 key = InlineKeyboardMarkup(
                     [
                         [
